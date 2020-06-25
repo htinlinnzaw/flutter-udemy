@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:suite/main.dart';
+import '../main.dart';
 class Navigation extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() {
-    return NavigationState();
-  }
+  State<StatefulWidget> createState() => NavigationState();
 }
 class NavigationState extends State<Navigation> {
   @override
