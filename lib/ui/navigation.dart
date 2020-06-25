@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:suite/main.dart';
 class Navigation extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -23,9 +24,11 @@ class NavigationState extends State<Navigation> {
             ListTile(
               title: Text('Stateful Counter'),
               onTap: () {
-                Navigator.pop(context);
-              },
-            ),
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyHomePage(title: 'Counter',)),
+                );
+              }),
             ListTile(
               title: Text('First'),
               onTap: () {
