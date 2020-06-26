@@ -25,7 +25,7 @@ class NavigationState extends State<Navigation> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) =>
-                  const MyHomePage(title: 'Counter',)),
+                  const CounterScreen(title: 'Counter',)),
                 );
               }),
             ListTile(

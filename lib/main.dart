@@ -28,8 +28,8 @@ class MyApp extends StatelessWidget {
     );
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key key, this.title}) : super(key: key);
+class CounterScreen extends StatefulWidget {
+  const CounterScreen({Key key, this.title}) : super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -43,10 +43,10 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _CounterScreenState createState() => _CounterScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _CounterScreenState extends State<CounterScreen> {
   int _counter = 0;
 
   void _incrementCounter() {
