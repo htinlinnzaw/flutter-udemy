@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../main.dart';
+import 'counter_screen.dart';
 class Navigation extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => NavigationState();
