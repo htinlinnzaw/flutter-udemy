@@ -1,9 +1,11 @@
 name: suite
 description: Flutter Application Suites from Udemy Course
+authors:
+  - Htin Linn Zaw (htinlinnzaw.dev@gmail.com)
 publish_to: 'none'
 version: 1.0.0+1
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: "2.8.4"
 dependencies:
   flutter:
     sdk: flutter
