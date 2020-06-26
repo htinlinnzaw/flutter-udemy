@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) => MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Udemy Course Suite',
       theme: ThemeData(
         // This is the theme of your application.
         //
