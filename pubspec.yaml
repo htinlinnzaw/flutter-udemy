@@ -5,7 +5,7 @@ authors:
 publish_to: 'none'
 version: 1.0.0+1
 environment:
-  sdk: "2.9.0-18.0.dev.flutter-6b630c3719"
+  sdk: "2.8.4"
 dependencies:
   flutter:
     sdk: flutter
