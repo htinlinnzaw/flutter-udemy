@@ -10,11 +10,11 @@ class NavigationState extends State<Navigation> {
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
-            DrawerHeader(
+            const DrawerHeader(
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
-              child: const Text(
+              child: Text(
                   'Flutter Udemy Code Example Suite'
               ),
 
